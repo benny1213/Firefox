@@ -1,9 +1,7 @@
 on:
   push:
-    paths:
-      - ".github/workflows/*"
-  schedule:
-    - cron: "0 18 */1 * *"
+    branches: 
+      - master
 
 name: firefox
 jobs:
